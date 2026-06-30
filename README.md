@@ -1,4 +1,4 @@
-# 基于 Qt 多线程架构的多通道温控数据采集系统 (SCADA)
+# 基于 Qt 多线程架构的多通道温控数据采集系统
 
 ![C++](https://img.shields.io/badge/C++-17-blue.svg)
 ![Qt](https://img.shields.io/badge/Qt-6-green.svg)
