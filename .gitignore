@@ -1,0 +1,44 @@
+# 编译产物
+build/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.moc
+moc_*.cpp
+*.autogen/
+mocs_compilation.cpp
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# CLion / IDEA
+.idea/
+cmake-build-*/
+
+# 数据库文件（运行时生成）
+*.db
+*.sqlite
+
+# 临时文件
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Qt 部署
+deploy_script

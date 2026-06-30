@@ -1,0 +1,34 @@
+{
+    "protocol": {
+        "frameHeader": "AA",
+        "frameTail": "55",
+        "frameLength": 6
+    },
+    "channels": [
+        {"id": 0, "name": "主轴", "port": "COM1", "color": "#00FF7F"},
+        {"id": 1, "name": "电机", "port": "COM2", "color": "#00BFFF"},
+        {"id": 2, "name": "轴承", "port": "COM3", "color": "#FFA500"}
+    ],
+    "alarm": {
+        "threshold": 50.0
+    },
+    "database": {
+        "batchSize": 50,
+        "flushIntervalMs": 5000
+    },
+    "serial": {
+        "baudRate": 115200,
+        "dataBits": 8,
+        "parity": "None",
+        "stopBits": "One",
+        "pollIntervalMs": 1000,
+        "reconnectThreshold": 3,
+        "reconnectDelayMs": 3000
+    },
+    "simulation": {
+        "enabled": true,
+        "intervalMs": 1000,
+        "temperatureMin": 25.0,
+        "temperatureMax": 55.0
+    }
+}
