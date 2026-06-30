@@ -7,18 +7,18 @@ qt_standard_project_setup()
 
 qt_add_executable(DeviceControlDemo
     WIN32 MACOSX_BUNDLE
-    main.cpp
-    widget.cpp
-    widget.h
-    worker.h
-    worker.cpp
-    configmanager.h
-    configmanager.cpp
-    downsampler.h
-    databasemanager.h
-    databasemanager.cpp
-    qcustomplot.h
-    qcustomplot.cpp
+    src/main.cpp
+    src/widget.cpp
+    src/widget.h
+    src/worker.h
+    src/worker.cpp
+    src/configmanager.h
+    src/configmanager.cpp
+    src/downsampler.h
+    src/databasemanager.h
+    src/databasemanager.cpp
+    src/qcustomplot.h
+    src/qcustomplot.cpp
 )
 
 target_link_libraries(DeviceControlDemo

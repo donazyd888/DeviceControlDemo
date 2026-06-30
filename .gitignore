@@ -42,3 +42,6 @@ Thumbs.db
 
 # Qt 部署
 deploy_script
+deploy/
+CLAUDE.md
+*.zip
