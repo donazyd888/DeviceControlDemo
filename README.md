@@ -27,3 +27,9 @@
 
 * **⚙️ 配置驱动架构与工业 UI 设计**
   将协议参数、通道属性、报警阈值等外置为 JSON 可配文件，内置默认值兜底。定制工业级深色防反光主题与多通道分色曲线；**内置模拟模式，支持无硬件状态下开箱即跑**。
+
+<img width="670" height="427" alt="image" src="https://github.com/user-attachments/assets/acb238cf-5843-46b4-8b46-e0836f4a1d1f" />
+
+<img width="668" height="426" alt="image" src="https://github.com/user-attachments/assets/1ab5efe4-f72d-4b66-b4d3-a5e214db1bd9" />
+
+<img width="712" height="429" alt="image" src="https://github.com/user-attachments/assets/16168669-02c4-4b3c-81d5-a8b256267dc7" />
